@@ -133,21 +133,21 @@
 <!--== Header Area End ==-->
 
 <!--== Page Title Area Start ==-->
-<section id="page-title-area" class="section-padding overlay">
-    <div class="container">
-        <div class="row">
-            <!-- Page Title Start -->
-            <div class="col-lg-12">
-                <div class="section-title  text-center">
-
-                    <span class="title-line"><i class="fa fa-car"></i></span>
-
-                </div>
-            </div>
-            <!-- Page Title End -->
-        </div>
-    </div>
-</section>
+<!--<section id="page-title-area" class="section-padding overlay">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--             Page Title Start -->
+<!--            <div class="col-lg-12">-->
+<!--                <div class="section-title  text-center">-->
+<!---->
+<!--                    <span class="title-line"><i class="fa fa-car"></i></span>-->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
+<!--             Page Title End -->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 <!--== Page Title Area End ==-->
 
 
@@ -175,6 +175,7 @@
             <a id ="Duration" herf="test.html"></a>
             <br>
             <a id ="Distance" herf="test.html"></a>
+
             <button id="submit_btn">Request Now</button>
         </div>
 
