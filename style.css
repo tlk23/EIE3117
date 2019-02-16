@@ -202,7 +202,7 @@ header.fixTotop #header-top {
 /*== Header Bottom CSS Start ==*/
 
 #header-bottom {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: black;
 	padding: 15px 0;
 	-webkit-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -2223,6 +2223,7 @@ body,
 	background-position: center center;
 	background-size: cover;
 	padding-top: 220px;
+	height: 50%;
 }
 
 #page-title-area .section-title {

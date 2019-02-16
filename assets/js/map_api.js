@@ -138,11 +138,16 @@ function computeTotalDistance(result) {
     var desLNg=result.routes[0].legs[0].start_location.lng();
     var duration = result.routes[0].legs[0].duration.text;
     var distance = result.routes[0].legs[0].distance.text;
+
+
     var myroute = result.routes[0];
     for (var i = 0; i < myroute.legs.length; i++) {
         total += myroute.legs[i].distance.value;
     }
     total = total / 1000;
+
+
+
     console.log('Distance '+ total + ' km');
     console.log('Duration ' + duration );
     document.getElementById("Origin").innerHTML=ori;
